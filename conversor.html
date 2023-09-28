@@ -3,13 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hera Maria Jóias Afetivas</title>
         <!--CSS (Sempre antes de fechar a head)-->
         <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <h1>Conversor de Medidas</h1>
-    <div id="converter">
+    <header>
+        <nav>
+            <ul>
+                <!---->
+                <img src="imagens/hera.png" alt="Logo da Empresa Fictícia">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="conversor.html">Conversor de Medidas</a></li>
+                <!-- Itens do Cabeçalho -->
+            </ul>
+        </nav>
+        <h1>Hera Jóias Afetivas</h1>
+    </header>
+
+        <form id="conversorMedidas">
+            <h2>Conversor de Medidas</h1>
+
         <label for="metros">Metros:</label>
         <input type="number" id="metros" placeholder="Digite a quantidade em metros" step="0.01" pattern="[0-9]" required>
         <label for="unidade">Converter para:</label>
@@ -26,6 +42,9 @@
         <i class="bi bi-calculator"></i>  Converter</button>
         <p id="resultado"></p>
         <script src="js/conversor.js"></script>
-    </div>
+        </form>
+    <footer>
+        <p>&copy; 2023 - Hera Maria Jóias Afetivas</p>
+    </footer>
 </body>
 </html>

@@ -1,17 +1,23 @@
 function converter() {
-
-
-    const metros = parseFloat(document.getElementById("metros").value);
-    const unidade = document.getElementById("unidade").value;
-        let resultado;
+    const metrosInput = document.getElementById("metros");
+    const resultadoElement = document.getElementById("resultado");
     
-/* Para a conversão de medidas em metros foram utilizadas as seguintes fórmulas:
-    1 Metro = 100            Centímetros
-    1 Metro = 0.001          Quilômetros
-    1 Metro = 0.000621371    Milhas
-    1 Metro = 3.28084        Pés
-    1 Metro = 39.3701        Polegadas
-    1 Metro = 1.09361        Jardas */
+    // Verifica se o campo "metros" está vazio ou não é um número válido
+    const metrosValue = metrosInput.value.trim(); // Remove espaços em branco do início e do fim
+    if (!metrosValue) {
+        resultadoElement.textContent = "Insira um valor válido";
+        return;
+    }
+
+    const metros = parseFloat(metrosValue);
+    
+    if (isNaN(metros)) {
+        resultadoElement.textContent = "Insira um valor válido";
+        return;
+    }
+
+    const unidade = document.getElementById("unidade").value;
+    let resultado;
 
     switch (unidade) {
         case "centímetros":
@@ -36,6 +42,5 @@ function converter() {
             resultado = "🚨 Selecione uma unidade de medida válida!";
     }
 
-    
-    document.getElementById("resultado").textContent = `${resultado} ${unidade}`;
+    resultadoElement.textContent = `${resultado} ${unidade}`;
 }

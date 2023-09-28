@@ -4,14 +4,49 @@
 /* Fontes do Google */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
+header {
 
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
+    position: fixed;
+    width: 100%;
+    height: 13%;
+    top: 0;
+
+   }
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #e476a3, #ac4ac2);
+    margin: 0;
+    padding: 0;
+    display: flex; /*permite a UI seja responsiva, flexivel */
+    flex-direction: column; /*Um elemento abiaxo do outro */
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh; /*altura minima */
+    }
+
 h1 {
-    color: #333;
+    top: 0;
+    color: #e3bbd4;
+    text-align: center;
+    display: -ms-inline-grid;
+ 
 }
+
+form{
+    margin-top: 150px;
+    background-color: rgba(233, 233, 243, 0.8);
+    text-align: center;
+    padding: 16px;
+    border-radius: 16px;
+    width: 60%; /* largura*/
+    display: -ms-inline-grid;
+    top: 0;
+}
+
+
+
 #converter {
     margin: 20px auto;
     width: 300px;
@@ -25,21 +60,56 @@ label {
     margin-bottom: 10px;
     font-weight: bold;
 }
-input[type="number"] {
+input {
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
 }
 select {
-    width: 100%;
+    width: 101%;
     padding: 5px;
     margin-bottom: 20px;
 }
 button {
-    background-color: #333;
+    background-color: #c53dba;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+footer{
+    margin-top: 50px;
+    color: #fff;
+}
+
+#calcular:hover{
+    background: #FFFFFF;
+    color: rgb(243, 0, 211);
+}
+
+href{
+    color: rgb(243, 0, 211);
+    background-color: #40A5B7;
+    font-size: .6875rem;
+    font-weight: 600;
 }
