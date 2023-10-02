@@ -11,8 +11,8 @@
     <header>
         <nav>
             <ul>
-                <img src="imagens/hera.png" alt="Logo da Empresa Fictícia">
-                <li><a href="#">Início</a></li>
+                <img src="https://media.istockphoto.com/id/1178218677/pt/vetorial/cute-siberian-husky-dog-paws-up-over-wall-vector-illustration.jpg?s=612x612&w=0&k=20&c=KSVsyVBtIYhpPmFAH_69OdzHI_UBOwUdSjeRniT9rsE=" alt="Logo da Empresa">
+                <li><a href="inicio.html">Início</a></li>
                 <li><a href="cadastro.html">Cadastro</a></li>
                 <li><a href="conversor.html">Conversor de Medidas</a></li>
                 <!-- Itens do Cabeçalho, direcionamento para o formulário de cadastro e conversor de medidas -->
@@ -22,7 +22,7 @@
     </header>
 
 
-        <form id="cadastro">
+    <form id="cadastro" onsubmit="Cadastrar(event)">
                 <h2>Formulário de Cadastro</h1>
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required placeholder="Nome Completo" />
@@ -47,6 +47,7 @@
                     <button type="submit" id="cadastrar">
                         <i class="bi bi-floppy"></i>  Cadastrar
                     </button>
+                    <script src="js/cadastro.js"></script>
         </form>
     </div>
     <footer>
