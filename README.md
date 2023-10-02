@@ -2,7 +2,6 @@ Projeto em HTML, CSS e Javascript realizado pela aluna Anna Luisa P. Giaj-Levra,
 Professor: Ricardo Leme
 
 # Conversor de Medidas
-Conversor de Medidas
 | Quantidade| Medida| Quantidade| Medida|
 | :---: | :---: | :---: | :---: |
 | 1,0 | Metro| 100,00| Centimetro|
