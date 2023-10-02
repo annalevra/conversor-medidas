@@ -1,4 +1,7 @@
-# conversorMedida
+Projeto em HTML, CSS e Javascript realizado pela aluna Anna Luisa P. Giaj-Levra, aluna do 2º semestre do curso de Gestão de Tecnologia da Informação da Fatec - Itu
+Professor: Ricardo Leme
+
+# Conversor de Medidas
 Conversor de Medidas
 | Quantidade| Medida| Quantidade| Medida|
 | :---: | :---: | :---: | :---: |
