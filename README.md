@@ -5,7 +5,7 @@ Professor: Ricardo Leme
 | Quantidade| Medida| Quantidade| Medida|
 | :---: | :---: | :---: | :---: |
 | 1,00 | Metro| 100,00| Centimetro|
-| 1,00 | Metro| 0,001| Quilomêtro|
+| 1,00 | Metro| 0,001| Quilômetro|
 | 1,00 | Metro| 0,000621371| Milha|
 | 1,00 | Metro| 3,28084| Pé|
 | 1,00 | Metro| 39,3701| Polegada|
