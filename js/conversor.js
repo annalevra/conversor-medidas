@@ -1,4 +1,5 @@
 function converter() {
+    event.preventDefault(); 
     const metrosInput = document.getElementById("metros");
     const resultadoElement = document.getElementById("resultado");
     
@@ -42,5 +43,5 @@ function converter() {
             resultado = "🚨 Selecione uma unidade de medida válida!";
     }
 
-    resultadoElement.textContent = `${resultado} ${unidade}`;
+    resultadoElement.textContent = `${resultado.toFixed(2)} ${unidade}`;
 }
